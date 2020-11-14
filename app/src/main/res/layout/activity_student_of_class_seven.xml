@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#158679"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentOfClassSeven">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List of students of class Seven"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:textColor="#590268"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/sevenBackId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:layout_marginTop="500dp"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:background="#54D6E2"
+            android:textColor="#065A50"
+            />
+        <Button
+            android:id="@+id/sevenExitId"
+
+            android:layout_marginLeft="200dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Exit"
+            android:layout_marginTop="500dp"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:background="#54D6E2"
+            android:textColor="#065A50"/>
+
+    </LinearLayout>
+
+</LinearLayout>

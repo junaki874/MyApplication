@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#BB91EB"
+    android:layout_height="match_parent"
+    tools:context=".Gallery">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:itemCount="10"
+        tools:listitem="@layout/row_gallery"/>
+
+    <Button
+
+        android:id="@+id/gallerybackId"
+        android:layout_marginTop="530dp"
+        android:textColor="#490202"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        android:text="Back"
+        android:background="#7FC0DD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
+<!--<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:background="#BB91EB"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".Gallery">-->
+
+
+<!--    <LinearLayout-->
+<!--        android:orientation="vertical"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+
+<!--    -->
+
+<!--        <LinearLayout-->
+<!--            android:weightSum="2"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--                <ImageView-->
+<!--            android:layout_weight="1"-->
+<!--            android:scaleType="fitStart"-->
+<!--            android:src="@drawable/gal0"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="100dp"/>-->
+<!--        <ImageView-->
+<!--            android:layout_weight="1"-->
+<!--            android:scaleType="fitStart"-->
+<!--            android:src="@drawable/gal1"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="100dp"/>-->
+
+
+
+<!--    </LinearLayout>-->
+<!--        <LinearLayout-->
+<!--            android:weightSum="2"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <ImageView-->
+<!--                android:layout_weight="1"-->
+<!--                android:scaleType="fitStart"-->
+<!--                android:src="@drawable/gal3"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="100dp"/>-->
+<!--            <ImageView-->
+<!--                android:layout_weight="1"-->
+<!--                android:scaleType="fitStart"-->
+<!--                android:src="@drawable/gal1"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="100dp"/>-->
+
+
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:weightSum="2"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <ImageView-->
+<!--                android:layout_weight="1"-->
+<!--                android:scaleType="fitStart"-->
+<!--                android:src="@drawable/gal3"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="100dp"/>-->
+<!--            <ImageView-->
+<!--                android:layout_weight="1"-->
+<!--                android:scaleType="fitStart"-->
+<!--                android:src="@drawable/gal1"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="100dp"/>-->
+
+
+
+<!--        </LinearLayout>-->
+<!--        <LinearLayout-->
+<!--            android:weightSum="2"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <ImageView-->
+<!--                android:layout_weight="1"-->
+<!--                android:scaleType="fitStart"-->
+<!--                android:src="@drawable/gal3"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="100dp"/>-->
+<!--            <ImageView-->
+<!--                android:layout_weight="1"-->
+<!--                android:scaleType="fitStart"-->
+<!--                android:src="@drawable/gal1"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="100dp"/>-->
+
+
+
+<!--        </LinearLayout>-->
+<!--        <LinearLayout-->
+<!--            android:weightSum="2"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <ImageView-->
+<!--                android:layout_weight="1"-->
+<!--                android:scaleType="fitStart"-->
+<!--                android:src="@drawable/gal3"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="100dp"/>-->
+<!--            <ImageView-->
+<!--                android:layout_weight="1"-->
+<!--                android:scaleType="fitStart"-->
+<!--                android:src="@drawable/gal1"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="100dp"/>-->
+
+
+
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:weightSum="2"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <ImageView-->
+<!--                android:layout_weight="1"-->
+<!--                android:scaleType="fitStart"-->
+<!--                android:src="@drawable/gal0"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="100dp"/>-->
+<!--            <ImageView-->
+<!--                android:layout_weight="1"-->
+<!--                android:scaleType="fitStart"-->
+<!--                android:src="@drawable/gal1"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="100dp"/>-->
+
+
+
+<!--        </LinearLayout>-->
+<!--        <LinearLayout-->
+<!--            android:weightSum="2"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <ImageView-->
+<!--                android:layout_weight="1"-->
+<!--                android:scaleType="fitStart"-->
+<!--                android:src="@drawable/gal3"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="100dp"/>-->
+<!--            <ImageView-->
+<!--                android:layout_weight="1"-->
+<!--                android:scaleType="fitStart"-->
+<!--                android:src="@drawable/gal1"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="100dp"/>-->
+
+
+
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:weightSum="2"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <ImageView-->
+<!--                android:layout_weight="1"-->
+<!--                android:scaleType="fitStart"-->
+<!--                android:src="@drawable/gal3"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="100dp"/>-->
+<!--            <ImageView-->
+<!--                android:layout_weight="1"-->
+<!--                android:scaleType="fitStart"-->
+<!--                android:src="@drawable/gal1"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="100dp"/>-->
+
+
+
+<!--        </LinearLayout>-->
+<!--        <LinearLayout-->
+<!--            android:weightSum="2"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <ImageView-->
+<!--                android:layout_weight="1"-->
+<!--                android:scaleType="fitStart"-->
+<!--                android:src="@drawable/gal3"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="100dp"/>-->
+<!--            <ImageView-->
+<!--                android:layout_weight="1"-->
+<!--                android:scaleType="fitStart"-->
+<!--                android:src="@drawable/gal1"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="100dp"/>-->
+
+
+
+<!--        </LinearLayout>-->
+<!--        <LinearLayout-->
+<!--            android:weightSum="2"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <ImageView-->
+<!--                android:layout_weight="1"-->
+<!--                android:scaleType="fitStart"-->
+<!--                android:src="@drawable/gal3"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="100dp"/>-->
+<!--            <ImageView-->
+<!--                android:layout_weight="1"-->
+<!--                android:scaleType="fitStart"-->
+<!--                android:src="@drawable/gal1"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="100dp"/>-->
+
+
+
+<!--        </LinearLayout>-->
+
+<!--    </LinearLayout>-->
+
+<!--</ScrollView>-->

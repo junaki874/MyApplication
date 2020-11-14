@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#ECB98B"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:textColor="#590268"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:src="@drawable/stupic"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginRight="10dp"
+            android:text="Student Information"
+            android:textAllCaps="false"
+            android:textColor="#7E032D"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Spinner
+            android:id="@+id/spinnerId"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Notice Board"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textColor="#7E032D"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <Spinner
+            android:id="@+id/noticeId"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Class Routine"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textColor="#7E032D"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <Spinner
+            android:id="@+id/classRtneId"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Exam Routine"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textColor="#7E032D"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <Spinner
+            android:id="@+id/examRtnId"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Attendance Record"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textColor="#7E032D"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <Spinner
+            android:id="@+id/attendanceId"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Result"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textColor="#7E032D"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <Spinner
+            android:id="@+id/resultId"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+    <TextView
+
+        android:layout_marginTop="10dp"
+        android:id="@+id/galleryId"
+        android:text="Photo/Gallery"
+        android:textColor="#7E032D"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+
+        android:layout_marginTop="50dp"
+        android:id="@+id/homeId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textSize="15sp"
+        android:textAllCaps="false"
+        android:background="#54D6E2"
+        android:textColor="#065A50"/>
+
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ResultTen" />
+        <activity android:name=".ResultNine" />
+        <activity android:name=".ResultEight" />
+        <activity android:name=".ResultSeven" />
+        <activity android:name=".ResultSix" />
+        <activity android:name=".AtenTen" />
+        <activity android:name=".AtenNine" />
+        <activity android:name=".AtenEight" />
+        <activity android:name=".AtenSeven" />
+        <activity android:name=".TutoPic" />
+        <activity android:name=".ClassRtnpic" />
+        <activity android:name=".TutorialExam" />
+        <activity android:name=".AtenSix" />
+        <activity android:name=".HolidayNotice" />
+        <activity android:name=".ParentsNotice" />
+        <activity android:name=".NoticePic" />
+        <activity android:name=".EightExam" />
+        <activity android:name=".ExamRoutin" />
+        <activity android:name=".Gallery" />
+        <activity android:name=".StuOfTen" />
+        <activity android:name=".StuOfNine" />
+        <activity android:name=".ClassRoutine" />
+        <activity android:name=".StuOfEight" />
+        <activity android:name=".AdminRegistration" />
+        <activity android:name=".Home" />
+        <activity android:name=".StudentOfClassSeven" />
+        <activity android:name=".StudentList" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

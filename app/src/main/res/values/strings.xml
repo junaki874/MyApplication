@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string-array name="classes">
+
+        <item>Select item</item>
+
+        <item> Six</item>
+        <item> Seven</item>
+        <item> Eight</item>
+        <item> Nine</item>
+        <item> Ten  </item>
+
+    </string-array>
+
+    <string-array name="noticeItem">
+        <item>Select item</item>
+        <item> General Notice</item>
+        <item> Parents Meeting</item>
+        <item> Notice of Holiday</item>
+
+    </string-array>
+
+    <string-array name="routine">
+        <item>Select item</item>
+        <item>Tutorial Exam</item>
+        <item> Term Exam</item>
+
+    </string-array>
+
+
+</resources>

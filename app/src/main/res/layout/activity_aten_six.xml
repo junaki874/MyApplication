@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#B76AE0"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AtenSix">
+    <TextView
+        android:text="Attendance of Class Six"
+        android:textColor="#5E0505"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Id"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:textColor="#590268"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/aten"
+            android:layout_marginLeft="10dp"
+            android:hint="Enter Id"
+            android:textColorHint="#775D5D"
+            android:textAllCaps="false"
+            android:textSize="15sp"
+            android:textColor="#2C0202"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:textColor="#590268"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/aten1"
+            android:layout_marginLeft="10dp"
+            android:hint="Enter name"
+            android:textColorHint="#775D5D"
+            android:textAllCaps="false"
+            android:textSize="15sp"
+            android:textColor="#2C0202"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Class"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:textColor="#590268"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/aten2"
+            android:layout_marginLeft="10dp"
+            android:hint="Enter class"
+            android:textColorHint="#775D5D"
+            android:textAllCaps="false"
+            android:textSize="15sp"
+            android:textColor="#2C0202"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Days"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:textColor="#590268"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/aten3"
+            android:layout_marginLeft="10dp"
+            android:hint="Enter total days"
+            android:textColorHint="#775D5D"
+            android:textAllCaps="false"
+            android:textSize="15sp"
+            android:textColor="#2C0202"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Present days"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:textColor="#590268"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/aten4"
+            android:layout_marginLeft="10dp"
+            android:hint="Enter present days"
+            android:textColorHint="#775D5D"
+            android:textAllCaps="false"
+            android:textSize="15sp"
+            android:textColor="#2C0202"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Absent days"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:textColor="#590268"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/aten5"
+            android:layout_marginLeft="10dp"
+            android:hint="Enter absent present days"
+            android:textColorHint="#775D5D"
+            android:textAllCaps="false"
+            android:textSize="15sp"
+            android:textColor="#2C0202"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/addAtenId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add data"
+        android:textSize="15sp"
+        android:textAllCaps="false"
+        android:background="#54D6E2"
+        android:textColor="#065A50"
+        />
+    <Button
+        android:id="@+id/viewAtenId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View data"
+        android:textSize="15sp"
+        android:textAllCaps="false"
+        android:background="#FCF2A0"
+        android:textColor="#065A50"
+        />
+    <Button
+        android:id="@+id/updateAtenId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update data"
+        android:textSize="15sp"
+        android:textAllCaps="false"
+        android:background="#96F09B"
+        android:textColor="#065A50"
+        />
+    <Button
+        android:id="@+id/deleteAtenId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete data"
+        android:textSize="15sp"
+        android:textAllCaps="false"
+        android:background="#C0BAC5"
+        android:textColor="#065A50"
+        />
+
+
+</LinearLayout>

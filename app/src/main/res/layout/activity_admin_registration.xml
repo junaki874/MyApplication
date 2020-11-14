@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#49F1FD"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminRegistration">
+
+    <EditText
+        android:id="@+id/ReguserId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#FFC107"
+        android:hint="Username"
+        android:textColorHint="#9122ff"
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/RegpassId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="#9122ff"
+        android:background="#F0B62A"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+
+        />
+    <EditText
+        android:id="@+id/CofirmpassId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:textColorHint="#9122ff"
+        android:background="#FFC107"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:inputType="textPassword"
+
+        />
+    <Button
+        android:id="@+id/SignId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#c9e2de"
+        android:text="Sign Up"
+        android:textColor="#1731c6"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:layout_marginTop="15dp"
+        />
+
+
+
+
+</LinearLayout>

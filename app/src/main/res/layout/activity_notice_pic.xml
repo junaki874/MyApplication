@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#8AD7E0"
+    android:layout_height="match_parent"
+    tools:context=".NoticePic">
+
+    <ImageView
+        android:padding="15sp"
+         android:src="@drawable/notice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/tcBackId"
+        android:text="Back"
+        android:textSize="15sp"
+        android:textAllCaps="false"
+        android:textColor="#046808"
+        android:background="#B2F086"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

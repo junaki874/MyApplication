@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/my_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentList">
+
+
+    <EditText
+        android:id="@+id/qryEditId"
+          android:textColorHint="#81836F"
+        android:hint="Please enter name"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#570303"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/qryBtnId"
+        android:text="Search"
+        android:textSize="15sp"
+        android:textAllCaps="false"
+        android:textColor="#500404"
+        android:background="#6A9B78"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+   <TextView
+       android:id="@+id/query"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:textAllCaps="false"
+       android:textColor="#590268"
+       android:textSize="20sp"
+       android:textStyle="bold"
+       android:layout_marginBottom="10dp"/>
+
+     <LinearLayout
+
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/sixBackId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_marginTop="300dp"
+        android:textSize="15sp"
+        android:textAllCaps="false"
+        android:background="#54D6E2"
+        android:textColor="#065A50"
+        />
+    <Button
+        android:id="@+id/sixNextId"
+        android:layout_marginLeft="220dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:layout_marginTop="300dp"
+        android:textSize="15sp"
+        android:textAllCaps="false"
+        android:background="#54D6E2"
+        android:textColor="#065A50"/>
+
+</LinearLayout>
+</LinearLayout>
